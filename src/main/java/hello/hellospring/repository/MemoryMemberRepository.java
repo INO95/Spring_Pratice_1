@@ -1,10 +1,13 @@
 package hello.hellospring.repository;
 
 import hello.hellospring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
 // 구현체
+//어노테이션 설정을 통해 스프링에 인식시킨다.
+//@Repository
 public class MemoryMemberRepository implements MemberRepository{
 
     // 저장
